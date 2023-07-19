@@ -1,0 +1,105 @@
+.navBlock1{
+    background-color: black;
+    width: 100%;
+}
+.navBlock1 > article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto;
+}
+.navBlock1 > article > aside > ul{
+    display: flex;
+}
+.navBlock1 > article > aside > ul > li{
+    list-style: none;
+    padding: 10px 0px;
+    margin-right: 15px;
+    font-weight: 500;
+    color: white;
+    font-size: 14px;
+    font-family: "sans-serif";
+}
+.navBlock1 > article > .aside > ul > li:hover:last-child{
+    color: orange;
+    text-decoration: underline;
+}
+.aside1 > ul > li >a{
+    color: white;
+    text-decoration: none;
+}
+
+.navBlock1 > article > aside > ul  span{
+    position: relative;
+    top: 2px;
+    right: 4px;
+}
+.navBlock1 > article > .aside1 ul > li >a:hover:first-child{
+    color: orange;
+    text-decoration: underline;
+}
+.navBlock1 > article > .aside1 > ul > li >a:hover:last-child{
+    color: orange;
+    text-decoration: underline;
+}
+
+.navBlock{
+    /* background: rgb(213, 207, 207); */
+    width: 100%;
+}
+.navBlock > article{
+    width: 75%;
+    margin: 0 auto;
+}
+.navBlock > article > aside{
+    width: 75%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 0;
+    position: absolute;
+    top: 2.5rem;
+    z-index: 4;
+}
+.imgBlock{
+    width: 12rem;
+}
+
+#menuBlock > article > aside > ul{
+    display: flex;
+    align-items: center;
+}
+#menuBlock > article > aside > ul > li{
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 12px 0px;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    font-family: "sans-serif";
+    border-bottom: medium solid transparent;
+}
+#menuBlock > article > aside > ul > li a:last-child{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+}
+#menuBlock > article > aside > ul > li:nth-child(7){
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+}
+#menuBlock > article > aside > ul > li:hover{
+    border-bottom: medium solid orange;
+}
+#menuBlock > article > aside > ul > li:hover:nth-child(7){
+    color: orange;
+    border: none;
+}
+
+

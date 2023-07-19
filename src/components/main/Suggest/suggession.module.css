@@ -1,0 +1,74 @@
+#mainPeople{
+  font-family: 'Roboto Slab', serif;
+}
+#whatImage{
+  display: flex;
+  justify-content: center;
+}
+#mainPeople{
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: 60vh;
+  margin-top: 50px;
+}
+#mainPeople>article{
+  width: 85%;
+  height: inherit;
+  margin: 0 auto;
+}
+#whatImage>div>img{
+border-radius: 50%;
+width: 90px;
+margin-right: 40px;
+margin-top: 40px;
+margin-bottom: 35px;
+text-align: center;
+justify-content: center;
+}
+#whatImage>#whatImage1>img,#whatImage>#whatImage2>img,#whatImage>#whatImage4>img,#whatImage>#whatImage5>img{
+  width: 70px;
+  margin-top: 55px;
+  margin-right: 40px;
+margin-bottom: 35px;
+}
+#whatImage>#whatImage2>img{
+   margin-right: 20px;
+}
+#whatImage>#whatImage3>img{
+  border: 2px dotted black ;
+  margin-left: -15px;
+}
+#mainPeople>article>h1{
+  font-size: 28px;
+  font-family: 'Roboto Slab', serif;
+  margin-top: 20px;
+}
+#mainPeople>article>h2{
+  margin-right:22px ;
+}
+#mainPeople>article>p{
+  font-size: 15px;
+  font-family: 'Roboto Slab', serif;
+  color: rgb(98, 93, 93);
+  margin-top: 10px;
+  margin-right:22px ;
+}
+#whatImage3>span{
+  position: relative;
+  bottom: 110px;
+  left: 88px;
+  z-index: 5;
+
+}
+#quoteBackground{
+  display: inline-block;
+  background-color: yellow;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+    position: relative;
+  bottom: 108px;
+  left: 70px;
+  font-size: 40px;
+}

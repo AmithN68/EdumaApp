@@ -1,0 +1,58 @@
+#mainFooter{
+  width: 100%;
+  height: 55vh;
+  background-color:rgb(17,17,17);
+  color: #fff;
+  padding-top: 70px;
+}
+#mainFooter>article{
+  width: 85%;
+  margin: 0 auto;
+}
+#subFooter{
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+#subFooter1{
+  flex-basis: 35%;
+}
+#subFooter1>img{
+  margin-bottom: 20px;
+}
+#subFooter2,#subFooter3,#subFooter4,#subFooter5{
+  flex-basis: 15%;
+}
+#subFooter2 p,#subFooter3 p,#subFooter4 p,#subFooter5 p{
+  margin-bottom: 20px;
+  color: gray;
+}
+#subFooter2>h1,#subFooter3>h1,#subFooter4>h1,#subFooter5>h1{
+  margin-bottom: 40px;
+}
+#footerPhone,#footerLocation,#footerMail{
+  display: flex;
+  margin-bottom: 20px;
+}
+#footerPhone>p,#footerLocation>p,#footerMail>p{
+  margin-left: 20px;
+  color: gray;
+}
+#socialIcons>span{
+  margin-right: 40px;
+  font-size: 30px;
+  color: gray;
+}
+#secondaryFooter{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+#secondaryFooter>p{
+  color: gray;
+}
+#secondaryFooter>div>span{
+  margin-right: 25px;
+  color: gray;
+}

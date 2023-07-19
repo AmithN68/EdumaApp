@@ -1,0 +1,228 @@
+
+/* ! register block */
+#registerBlock article {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  flex-direction: column;
+  background-color: rgb(22, 23, 24);
+}
+#registerBlock form h1{
+  padding: 10px 0;
+  font-size: 2em;
+ text-align: center;
+  font-weight: bold;
+}
+#registerBlock form {
+  background: #fff;
+  padding: 20px;
+  width: 430px;
+  border: none;
+  margin-top: 5%;
+  border-radius: 10px;
+}
+#registerBlock form label {
+  width: 80%;
+  display: block;
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+#registerBlock form input[type="text"],
+#registerBlock form input[type="email"],#registerBlock form input[type="password"]{
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #eee;
+}
+#registerBlock form input:focus{
+    outline-color: #FFB606;
+}
+#registerBlock form button{
+  width: 100%;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 4px;
+  border: 1px solid #eee;
+  background-color: #FFB606;
+}
+#registerBlock form .login1{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 1rem;
+}
+#registerBlock form .login1 a{
+  text-decoration: none;
+  padding: 3px;
+  font-size: 16px;
+  color: #FFB606;
+  
+}
+#registerBlock form .account1 p{
+  margin-top: 1rem;
+  font-size: 15px;
+  text-align: center;
+
+}
+#registerBlock form .account1 a{
+   text-decoration: none;
+  padding: 3px;
+  font-size: 16px;
+  color: #FFB606;
+  text-align: center;
+}
+
+/* ! login Block */
+
+#loginBlock article {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  flex-direction: column;
+  background-color: rgb(22, 23, 24);
+}
+#loginBlock form h1{
+  padding: 10px 0;
+  font-size: 25px;
+ text-align: center;
+  font-weight: bold;
+}
+#loginBlock form {
+  background: #fff;
+  padding: 30px;
+  width: 430px;
+  border: none;
+  margin-top: 5%;
+  border-radius: 10px;
+}
+#loginBlock form label {
+  width: 80%;
+  display: block;
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+#loginBlock form input[type="email"],
+#loginBlock form input[type="password"]{
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #eee;
+}
+#loginBlock form input:focus{
+    outline-color: #FFB606;
+}
+#loginBlock form button{
+  width: 100%;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 4px;
+  border: 1px solid #eee;
+  background-color: #FFB606;
+}
+#loginBlock form .login1{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 1rem;
+}
+#loginBlock form .login1 a{
+  text-decoration: none;
+  padding: 3px;
+  font-size: 16px;
+  color: #FFB606;
+}
+#loginBlock form .account1 p{
+  margin-top: 3%;
+  font-size: 15px;
+  text-align: center;
+
+}
+#loginBlock form .account1 a{
+   text-decoration: none;
+  padding: 3px;
+  font-size: 16px;
+  color: #FFB606;
+  text-align: center;
+}
+#loginBlock form .checkBlock span{
+  margin-left: 26%;
+  font-size: 15px;
+}
+#loginBlock form .checkBlock{
+  margin-top: -10px;
+  font-size: 15px;
+}
+#loginBlock form .passwordBlock span{
+  position: relative;
+  top: -27px;
+  z-index: 2;
+  margin-left: 90%;
+  font-size: 20px;
+  color: rgb(136, 125, 125);
+}
+
+/* !logout */
+.bootCampBtn li{
+  list-style: none;
+}
+
+.bootCampBtn li a{
+  text-decoration: none;
+  list-style: none;
+  position: absolute;
+  right: 300px;
+  top: 12px;
+  color: white;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+.bootCampBtn li a {
+  text-decoration: none;
+}
+.bootCampBtn li a:hover {
+  border-bottom: 1px solid #ffb606;
+  color: #ffb606;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  margin-right: 0.7rem;
+}
+
+.menu li:nth-child(2){
+  color: white;
+  padding: 7px 0px;
+  margin: 0 10px;
+}
+
+.menu li a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 9px 6px;
+  border: none;
+}
+
+/* !logout */
+.logout > a{
+  color: white;
+  text-decoration: none;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+.logout >a:hover{
+  border-bottom: 1px solid #ffb606;
+  color: #ffb606;
+  cursor: pointer;
+}

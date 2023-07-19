@@ -1,0 +1,8 @@
+ @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Antonio&family=Architects+Daughter&family=Arvo&family=Audiowide&family=Bungee+Spice&family=Catamaran&family=Combo&family=Crete+Round&family=Dangrek&family=Fredoka+One&family=Indie+Flower&family=Irish+Grover&family=Lato&family=Libre+Baskerville&family=Luckiest+Guy&family=Maven+Pro&family=Merriweather&family=Michroma&family=Montserrat&family=Montserrat+Alternates&family=Open+Sans&family=Orbitron&family=Permanent+Marker&family=Prompt&family=Righteous&family=Roboto+Slab:wght@400;500&family=Roboto:wght@300;400&family=Rubik+Burned&family=Rubik+Distressed&family=Rubik+Iso&family=Rubik+Maze&family=Russo+One&family=Shadows+Into+Light&family=Special+Elite&family=Work+Sans&display=swap'); 
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}

@@ -1,0 +1,364 @@
+.Carousel{
+    width: 100%;
+    height: 95vh;
+}
+.Carousel > div {
+    width: 100%;
+    height: 95vh;
+    /* position: relative; */
+    /* text-align: center; */
+}
+
+.Carousel > div aside{
+    z-index: 2;
+    position: absolute;
+    top: 12rem;
+    left: 11rem;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+.Carousel > div aside h1{
+    font-size: 4rem;
+    color: white;
+    font-weight: bold;
+    padding: 8px 0px;
+    font-family: "sans-serif";
+    text-transform: uppercase;
+}
+.Carousel > div aside h2{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+    padding: 4px 0px;
+    font-family: "sans-serif";
+    text-transform: uppercase;
+    float: left;
+}
+.Carousel > div aside button{
+    padding: 15px 40px;
+    font-weight: bold;
+    float: left;
+    margin-left: 5px;
+    font-size: 0.9rem;
+    background-color: orange ;
+    text-transform: uppercase;
+    border: none;
+    font-family: "sans-serif";
+    border-radius: 5px;
+}
+
+/* !division block */
+.divBlock{
+    width: 100%;
+    height: 20vh;
+    position: absolute;
+    top: 33rem;
+}
+.divBlock > article{
+    width: 72%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+.divBlock > article > aside{
+    width: 40vw;
+    height: 20vh;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    font-family: "sans-serif";
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.477);
+    color: white;
+}
+.divBlock > article > aside:hover{
+    background-color: rgba(0, 0, 0, 0.69);
+}
+.divBlock > article > aside > div h5{
+    color: white;
+    padding-top: 5px 0px;
+    font-size: 0.9rem;
+}
+.divBlock > article > aside > div h2{
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+.divBlock > article > aside > div > h5 span{
+    position: relative;
+    top: 0.45rem;
+    font-weight: 600;
+    padding: 0px 4px;
+    font-size: 1.4rem;
+}
+.divBlock > article > aside > div h5:hover{
+    text-decoration: underline;
+}
+
+
+/* !fixed block */
+.fixedBlock > article{
+    width: 8rem;
+    position: fixed;
+    top: 10.5rem;
+    right: -3rem;
+    z-index: 5;
+    color: white;
+}
+.fixedBlock > article > div{
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: white;
+    color: black;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+.fixedBlock > article > div:hover{
+    color: white;
+}
+
+.fixedBlock > article > div > h1{
+    font-size: 1.4rem;
+    padding-top: 0.5rem;
+}
+.fixedBlock > article > div:hover h1{
+    color: white;
+}
+.fixedBlock > article > div > h2{
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+
+.divBlock1:hover{
+    background-color: #36ccb1;
+    color: white;
+}
+.divBlock2:hover{
+    background-color: #fdb03f;
+    color: white;
+}
+.divBlock3:hover{
+    background-color: #78aeff;
+    color: white;
+}
+.head1{
+color: #36ccb1;
+}
+.head2{
+color: #fdb03f;
+}
+.head3{
+    color: #78aeff;
+}
+
+
+
+/* !popular courses */
+.courseBlock{
+    width: 100%;
+    height: 93vh;
+}
+.courseBlock article{
+    width: 75%;
+    margin: 0 auto;
+}
+.courseBlock > article > .heading{
+    position: relative;
+    top: 3.2rem;
+    left: 3rem;
+}
+.heading > h1{
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+}
+.heading > p{
+    font-size: 1.05rem;
+    font-weight: 100;
+}
+.arrow{
+    position: absolute;
+    top: 5rem;
+    left: 46%;
+    font-size: 1.4rem;
+    display: none;
+}
+.courseBlock article .button{
+    padding: 15px 35px;
+    position: relative;
+    left: 45%;
+    top: 0.6rem;
+    border-radius: 0.3rem;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.courseBlock article .button:hover{
+    border: none;
+    background-color: orange;
+}
+.courseBlock1 div{
+    height: 51.5vh;
+    margin: 3rem;
+    margin-top: 6rem;
+    border:1px solid rgba(0, 0, 0, 0.09);
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.imgBlock:hover{
+    opacity: 0.7;
+}
+.imgBlock:hover .arrow{
+    display: block;
+    color: rgb(254, 252, 252);
+}
+.courseBlock1 .logo{
+    width: 5rem;
+    height: 5rem;
+    border: 7px solid white;
+    border-radius: 100%;
+    position: relative;
+    top: -3rem;
+}
+.courseBlock1 div ul{
+    border-top:1px solid rgba(0, 0, 0, 0.09);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 28px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+} 
+.courseBlock1 div ul:hover{
+    border-top:1px solid black;
+}
+.courseBlock1 div ul li{
+    color: rgba(0, 0, 0, 0.403);
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+.courseBlock1 div ul li span{
+    position: relative;
+    top: 2px;
+    padding-right: 8px;
+}
+.courseBlock1 div ul li:last-child{
+    color: red;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.courseBlock1 div .freeLi li:last-child{
+    color: rgb(10, 244, 10);
+}
+.courseBlock1 div h5{
+    margin-top: -3.3rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.courseBlock1 div h3{
+    font-size: 1.3rem;
+    margin-bottom: 1.2rem;
+    font-weight:100;
+}
+
+/* !register now */
+.registerBlock{
+    width: 100%;
+    height: 60vh;
+    background-image: url("../assets/Carosel1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.registerBlock article {
+    width: inherit;
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+.registerBlock > article > div{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+}
+.registerBlock > article > div > aside{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+    padding: 2rem;
+    border:transparent;
+    width: 50%;
+    height:50vh ;
+    color: white;
+}
+.aside11 > h1{
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 4.5rem;
+    letter-spacing: 0.1rem;
+}
+.aside11 > h5{
+    font-size: 1rem;
+    font-weight: 100;
+    margin-top: 2rem;
+    margin-bottom: 0.8rem;
+}
+.aside11 > span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.aside11 > span > div{
+    width: 6.3rem;
+    height: 7.7rem;
+    margin-right: 1rem;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 0.4rem;
+}
+.aside11 > span > div > h6{
+    font-size: 3rem;
+    color: orange;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+.aside11 > span > div > p{
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+.aside12 form input{
+    border:transparent;
+    padding: 0.9rem;
+    margin-top: 1.5rem;
+    width: 100%;
+    border-radius: 0.3rem;
+    border: none;
+}
+.aside12 > h2{
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+.aside12 form button{
+    border:transparent;
+    padding: 0.9rem;
+    margin-top: 1.5rem;
+    width: 100%;
+    border-radius: 0.3rem;
+    border: none;
+    background-color: orange;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.aside12 form button:hover{
+    background-color: rgb(238, 157, 6);
+}

@@ -1,0 +1,99 @@
+#eventBlock{
+  width: 100%;
+  height: 95vh;
+  /* background-color: antiquewhite; */
+font-family: 'Roboto Slab', serif;
+
+}
+#eventBlock>article{
+  width: 90%;
+  align-items: center;
+  height: inherit;
+  margin: 0 auto;
+}
+.eventBlock1{
+  display: flex;
+  padding: 5% 5%;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.eventBlock1 .event{
+  flex-basis: 50%;
+  margin-left: -5%;
+}
+.eventBlock1 .event h1{
+  font-size: 30px;
+}
+.eventBlock1 .event p{
+  font-size: 15px;
+  padding: 6px 0;
+}
+.eventBlock1 .eventButton{
+  margin-left: 40%;
+}
+.eventBlock1 .eventButton button{
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border:1px solid rgba(0, 0, 0, 0.181);
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: white;
+  border: 2px solid #ccc;
+
+}
+.eventBlock1 .eventButton button:hover{
+  border: 2px solid #FFB606;
+}
+.eventBlock2{
+  display: flex;
+  padding: 3% 3%;
+  align-items: center;
+  margin-left: -2%;
+}
+.eventBlock3{
+  display: flex;
+   padding: 3% 3%;
+  align-items: center;
+  margin-left: -2%;
+}
+.eventBlock2 .number,.eventBlock3 .number{
+  flex-basis: 14%;
+  border-right:1px solid #dfdada;
+}
+/* .horizontal{
+  border: 1px solid rgb(183, 179, 179);
+  border: none;
+} */
+.eventBlock2 .number h1,.eventBlock3 .number h1{
+  font-size: 60px;
+  color: #FFB606;
+}
+.eventBlock2 .place,.eventBlock3 .place{
+  flex-basis: 70%;
+  padding-left: 60px;
+}
+.eventBlock2 .place h1,.eventBlock3 .place h1{
+  padding-top: -11px;
+  font-weight: lighter;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+.eventBlock2 .place p,.eventBlock3 .place p{
+  margin-top: 20px;
+  font-size: 15px;
+  padding: 5px 5px;
+  color: #606060;
+}
+.eventBlock2 .place h1:hover,.eventBlock3 .place h1:hover{
+  color: #FFB606;
+}
+.eventBlock2 .image,.eventBlock3 .image{
+  flex-basis: 20%;
+  
+}
+.eventBlock2 .image img,.eventBlock3 .image img{
+  margin-left: 10px;
+  border-radius: 5px;
+}
